@@ -1,0 +1,19 @@
+name: dissertation
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # Base depends
+  - python
+  - pip
+  - jupyter
+  - jupyterlab>=3
+  - xlrd
+  - numpy
+  - pandas
+  - matplotlib-base
+  - scikit-image
+  - scipy
+  - rdkit
+  - opencadd
+ 
